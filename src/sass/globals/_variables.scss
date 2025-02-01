@@ -1,0 +1,139 @@
+
+/* CUSTOM PROPERTIES */
+
+:root {
+
+    /* Primitive properties */
+
+    /* COLORS */
+
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-almost-white: hsl(17, 41%, 97%);
+    --clr-light-grey: hsl(17, 12%, 89%);
+    --clr-dark-desaturated-blue: hsl(195, 23%, 28%);
+    --clr-dark-blue: hsl(194, 78%, 11%);
+
+    --clr-lightest-salmon: hsl(24, 100%, 97%);
+    --clr-very-light-salmon: hsl(22, 100%, 91%);
+    --clr-light-salmon: hsl(22, 99%, 72%);
+
+    
+    /* TYPOGRAPHY */
+
+    --ff-sans-serif1: 'Martian Mono', system-ui, sans-serif;
+    --ff-sans-serif2: 'Inter', system-ui, sans-serif;
+
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+
+    --fs-14px: .875rem;
+    --fs-16px: 1rem;
+    --fs-18px: 1.125rem;
+    --fs-20px: 1.25rem;
+    --fs-24px: 1.5rem;
+    --fs-34px: 2.125rem;
+    --fs-38px: 2.375rem;
+    --fs-50px: 3.125rem;
+    --fs-62px: 3.875rem;
+
+
+    /* SPACING */
+
+    --spacing-0px: 0;
+    --spacing-2px: 2px;
+    --spacing-4px: 4px;
+    --spacing-6px: 6px;
+    --spacing-8px: 8px;
+    --spacing-12px: 12px;
+    --spacing-16px: 16px;
+    --spacing-20px: 20px;
+    --spacing-24px: 24px;
+    --spacing-32px: 32px;
+    --spacing-40px: 40px;
+    --spacing-48px: 48px;
+    --spacing-64px: 64px;
+    --spacing-80px: 80px;
+    --spacing-120px: 120px;
+
+
+    /* RADIUS */
+
+    --radius-0px: 0;
+    --radius-4px: 4px;
+    --radius-6px: 6px;
+    --radius-8px: 8px;
+    --radius-10px: 10px;
+    --radius-12px: 12px;
+    --radius-16px: 16px;
+    --radius-20px: 20px;
+    --radius-24px: 24px;
+
+
+    
+    /* Semantic properties */
+
+    /* COLORS */
+
+    --clr-neutral-0: var(--clr-white);
+    --clr-neutral-100: var(--clr-almost-white);
+    --clr-neutral-200: var(--clr-light-grey);
+    --clr-neutral-700: var(--clr-dark-desaturated-blue);
+    --clr-neutral-900: var(--clr-dark-blue);
+
+    --clr-light-salmon-50: var(--clr-lightest-salmon);
+    --clr-light-salmon-100: var(--clr-very-light-salmon);
+    --clr-light-salmon-500: var(--clr-light-salmon);
+
+
+    /* TYPOGRAPHY */
+
+    --ff-primary: var(--ff-sans-serif2);
+    --ff-secondary: var(--ff-sans-serif1);
+
+    --fw-regular: var(--fw-400);
+    --fw-semi-bold: var(--fw-600);
+    --fw-bold: var(--fw-700);
+
+    --fs-175: var(--fs-14px);
+    --fs-200: var(--fs-16px);
+    --fs-225: var(--fs-18px);
+    --fs-250: var(--fs-20px);
+    --fs-300: var(--fs-24px);
+    --fs-425: var(--fs-34px);
+    --fs-475: var(--fs-38px);
+    --fs-625: var(--fs-50px);
+    --fs-775: var(--fs-62px);
+
+
+    /* SPACING */
+
+    --spacing-0: var(--spacing-0px);
+    --spacing-25: var(--spacing-2px);
+    --spacing-50: var(--spacing-4px);
+    --spacing-75: var(--spacing-6px);
+    --spacing-100: var(--spacing-8px);
+    --spacing-150: var(--spacing-12px);
+    --spacing-200: var(--spacing-16px);
+    --spacing-250: var(--spacing-20px);
+    --spacing-300: var(--spacing-24px);
+    --spacing-400: var(--spacing-32px);
+    --spacing-500: var(--spacing-40px);
+    --spacing-600: var(--spacing-48px);
+    --spacing-800: var(--spacing-64px);
+    --spacing-1000: var(--spacing-80px);
+    --spacing-1500: var(--spacing-120px);
+
+
+    /* RADIUS */
+
+    --radius-0: var(--radius-0px);
+    --radius-4: var(--radius-4px);
+    --radius-6: var(--radius-6px);
+    --radius-8: var(--radius-8px);
+    --radius-10: var(--radius-10px);
+    --radius-12: var(--radius-12px);
+    --radius-16: var(--radius-16px);
+    --radius-20: var(--radius-20px);
+    --radius-24: var(--radius-24px);
+}

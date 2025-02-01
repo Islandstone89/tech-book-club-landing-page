@@ -1,0 +1,14 @@
+
+:is(.header, .hero) {
+    background-image: url('/assets/images/pattern-light-bg.svg');
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: var(--clr-neutral-100);
+    padding-block-start: var(--spacing-300);
+
+    @media (width > 45rem) {
+        padding-block-start: var(--spacing-400);
+    }
+}

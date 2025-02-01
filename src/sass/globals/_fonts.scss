@@ -1,0 +1,36 @@
+
+/* FONTS */
+
+
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/inter-v18-latin-regular.woff2') format('woff2');
+  }
+
+  
+@font-face {
+    font-display: swap;
+    font-family: 'Martian Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/martian-mono-v3-latin-regular.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Martian Mono';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/assets/fonts/martian-mono-v3-latin-600.woff2') format('woff2');
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: 'Martian Mono';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/fonts/martian-mono-v3-latin-700.woff2') format('woff2');
+  }

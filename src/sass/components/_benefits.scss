@@ -1,0 +1,155 @@
+
+.benefits {
+    padding-block: var(--spacing-800);
+
+    @media (width > 45rem) {
+       padding-block: var(--spacing-1000);
+    }
+    
+    @media (width > 60rem) {
+        padding-block: var(--spacing-1500);
+    }
+}
+
+
+.benefits__heading {
+    line-height: 1.3;
+}
+
+.benefits__image {
+    --radius: var(--radius-12);
+    border-radius: var(--radius);
+
+    &[data-device="tablet"] {
+        --radius: var(--radius-24);
+    }
+
+    &[data-device="desktop"] {
+        --radius: var(--radius-20);
+    }
+}
+
+.benefits__first {
+    --grid-gap: var(--spacing-500);
+    --columns: 1fr;
+    display: grid;
+    grid-template-columns: var(--columns);
+    align-items: center;
+    gap: var(--grid-gap);
+    grid-template-areas: 
+    "text"
+    "image"
+    ;
+
+    @media (width > 60rem) {
+        --grid-gap: var(--spacing-1000);
+        --columns: 1fr 1fr;
+        grid-template-areas: 
+        "image text"
+        ;
+    }
+}
+
+.benefits__first__text {
+    grid-area: text;
+}
+
+.benefits__list {
+    font-size: var(--fs-250);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-200);
+
+        @media (width > 45rem) {
+         --flow-space: var(--spacing-400);
+         gap: var(--spacing-300);
+    }   
+}
+
+.benefits__list__item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-200);
+}
+
+.benefits__first__image-wrapper {
+    grid-area: image;
+}
+
+
+.benefits__second {
+    --grid-gap: var(--spacing-500);
+    --columns: 1fr;
+    display: grid;
+    grid-template-columns: var(--columns);
+    align-items: center;
+    gap: var(--grid-gap);
+    padding-block-start: var(--spacing-800);
+
+    @media (width > 45rem) {
+        padding-block-start: var(--spacing-1000);
+    }
+    
+    @media (width > 60rem) {
+        --grid-gap: var(--spacing-1000);
+        --columns: 1fr 1fr;
+        padding-block-start: var(--spacing-1500);
+    }
+}
+
+.club {
+    position: relative;
+
+    &::after {
+        position: absolute;
+        content: url('/assets/images/pattern-circle.png');
+        right: -50%;
+        bottom: -50%;
+    }
+
+    @media (width > 45rem) {
+        &::after {
+            position: absolute;
+            content: url('/assets/images/pattern-circle.png');
+            right: 0;
+            bottom: -30%;
+        }
+    }
+}
+
+.benefits__second__info {
+    font-size: var(--fs-250);
+}
+
+.language {
+    font-weight: var(--fw-semi-bold);
+}
+
+
+.benefits__second__image-wrapper {
+    position: relative;
+
+    @media (width > 45rem) {
+        
+        &::after {
+            position: absolute;
+            display: block;
+            content: url('/assets/images/logos-tech.svg');
+            right: 5%;
+            bottom: 5%;
+            z-index: 9;
+        }
+    }
+
+    @media (width > 60rem) {
+
+        &::after {
+            position: absolute;
+            display: block;
+            content: url('/assets/images/logos-tech.svg');
+            left: -15%;
+            bottom: 5%;
+            z-index: 9;
+        }
+    }
+}
